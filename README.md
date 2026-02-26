@@ -10,7 +10,7 @@ It all started with this:
 
 \ProvidesFile{priti_cv_template.tex}[2026/02/26 Priti Das Dipa custom AltaCV template]
 
-## Samples
+Samples
 
 
 <img src="mmayer.png" alt="Priti's cv, re-created with AltaCV" width="600px">
@@ -20,7 +20,7 @@ Though if you're creating your own CV/résumé, you'd probably prefer using the 
 <img src="sample.png" alt="sample barebones AltaCV template" width="600px">
 
 
-## Requirements and Compilation
+Requirements and Compilation
 
 * AltaCV uses [`fontawesome5`](http://www.ctan.org/pkg/fontawesome5) (≥ v5.12.0), and [simpleicons](http://www.ctan.org/pkg/simpleicons) (≥ v9.9.0) for the new X icon when you use `\xtwitter`. If you're on an older version, the class will try to fall back to the old Twitter icon. But it's recommended to use an up-to-date MikTeX or TeX Live installation, with updated packages as recent as possible.
 * To produce the list of publications, run `pdflatex` + `biber` + `pdflatex`. (Replace `pdflatex` with `xelatex` or `lualatex` as necessary.)
@@ -31,7 +31,7 @@ Though if you're creating your own CV/résumé, you'd probably prefer using the 
 * As of v1.3 the `withhyper` document class option will make the "personal info" fields into clickable hyperlinks (where it makes sense). See below for more details.
 * The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) and [Roboto Slab fonts](https://github.com/googlefonts/robotoslab). Feel free to use a different typeface package instead—often a different typeface will change the entire CV's feel.
 
-## `sample.tex` ##
+`sample.tex` ##
 
 This file was first created as `sample-alt.tex` on 26 Feb 2026. **It is the default sample LaTeX file since 10 May 2020.**
 
